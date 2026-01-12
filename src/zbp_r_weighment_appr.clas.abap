@@ -1,0 +1,5 @@
+CLASS zbp_r_weighment_appr DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zr_weighment_appr.
+ENDCLASS.
+
+CLASS zbp_r_weighment_appr IMPLEMENTATION.
+ENDCLASS.

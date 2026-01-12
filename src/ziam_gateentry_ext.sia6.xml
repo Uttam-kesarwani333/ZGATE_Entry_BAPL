@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZIAM_GATEENTRY_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>IAM for Gate Entry</DESCRIPTION>
+     <RESPONSIBLE>CB9980000020</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>D6F</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZGATE</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZIAM_GATEENTRY_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <UI_APP_ID>ZGATE_UI_4_UI5R</UI_APP_ID>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZGE_SB_HEAD_SERVICE                0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_GATEENTRY_EXT</APP_ID>
+      <SRVC_NAME>F1FBE02B6CB2778896260CF03649FE</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <UIAD_SRC>ZGATE_UI_4_UI5R</UIAD_SRC>
+      <TEXT>Service Binding Gate Entry</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <AUTH>
+     <item>
+      <AUTH_OBJECT>ZAO_GETYPE</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>ZAO_GETYPE</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>QgEKC5R9H+C3ls0XZO2F1w==</UUID>
+        <AUTH_OBJECT>ZAO_GETYPE</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>ZAO_GETYPE</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ZAF_GETYPE</FIELD>
+          <VALUES>
+           <item>
+            <UUID>QgEKC5R9H+C3ls0XZO2l1w==</UUID>
+           </item>
+          </VALUES>
+          <TEXT>Data element Gate Type</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Create or generate,Change,Display,Delete</VALUE>
+          <VALUES>
+           <item>
+            <UUID>QgEKC5R9H+C3ls0XZO3F1w==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>QgEKC5R9H+C3ls0XZO3l1w==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>QgEKC5R9H+C3ls0XZO4F1w==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>QgEKC5R9H+C3ls0XZO4l1w==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+    </AUTH>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>
